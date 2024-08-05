@@ -1,0 +1,73 @@
+.container{
+    background-color: white;
+}
+.nav{
+    background-color: #B0B0B0;
+    display :flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.search_feild{
+    color: rgb(111, 113, 114);
+    width: 150px;
+    height: 30px;
+}
+.login_btn{
+    background-color: #2B78E4;
+    color: white;
+    width: 70px;
+    height: 35px;
+    box-shadow: 3px 3px black;
+}
+.first-box , .second-box {
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    position: relative;
+    top:30px;
+    left :100px;
+    width: 450px;
+}
+.sidebar  {
+    margin: 10px;
+    padding: 10px;
+}
+.first-mean ,.second-mean { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-mean a , .second-mean a {
+    color: blue;
+    text-decoration: underline;
+}
+.btn-like {
+    background-color: #FFD966;
+    color: black;
+    width: 80px;
+    height: 32px;
+    box-shadow: 3px 3px black;
+}
+.second-box {
+    top:-70px;
+}
+.add-def {
+    background-color: #93C47D;
+    color: black;
+    width: 126px;
+    height: 35px;
+    box-shadow: 3px 3px black;
+}
+.third-box {
+    border: 2px solid black;
+    width: 145px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 600px;
+    top:-173px;
+}

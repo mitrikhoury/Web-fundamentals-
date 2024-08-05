@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Card</title>
+    <link rel="stylesheet" href="Making_Connections.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </div>
+    <div class="Connections-Requests">
+        <div class="nav-request">
+            <span class="conn" id="requests">2</span>
+             <h3>Connection Requests</h3>
+        </div>
+        <div class="info-request" id="request1">
+            <img class="image"src="../../images/profileeeeeeetttt.png" alt="profile"> 
+            <p class="edit____name">
+                Todd E 
+            </p> <img class="edit____" src="../../images/accept-circle.png" alt="profile"  onclick="accept('#request1')">
+            <img class="edit____"
+            src="../../images/close-circle.png" alt="profile" onclick="ignore('#request1')">
+        </div>
+
+        <div class="info-request" id="request2">
+            <img class="image"src="../../images/profileeeeeeetttt.png" alt="profile"> 
+            <p class="edit____name">
+                Adrien D
+            </p> <img class="edit____" src="../../images/accept-circle.png" alt="profile"  onclick="accept('#request2')">
+            <img class="edit____"
+            src="../../images/close-circle.png" alt="profile" onclick="ignore('#request2')">
+        </div>
+    </div>
+    <div class="container">
+        <div class="nav1">
+            <img class="image"src="../../images/profileeeeeeetttt.png" alt="profile">
+        </div>
+        <div class="info">
+         <h3 id="username"> Jana Doe</h3>
+         <div class="location">
+            <img src="../../images/location_icon.png" alt="location">
+            <h4>Seattle</h4>
+         </div>
+         <div>
+            <h4>Developer | Computer Science | Problem Solver
+            Master of shadows and Internet</h4>
+         </div>
+         <div class="edit_profile">
+            <img src="../../images/gear.png" alt="edit_profile">
+            <a onclick="edit()" herf="####">Edit Profile</a>
+         </div>
+        </div>
+    </div>
+
+    <div class="your-connection">
+        <div class="nav-conntion">
+            <span class="conn" id="conn">442</span>
+            <h3> Your Connections</h3>
+        </div>
+        <div class="info-connection">
+            <div>
+                <img src="../../images/alayne-s.jpg" alt="alayne photo">
+                <p> alayne s</p>
+            </div>
+            <div>
+                <img src="../../images/arry-s.jpg" alt="arry-s photo">
+                <p> arry s</p>
+            </div>
+            <div>
+                <img src="../../images/todd-s.jpg" alt="todd-s photo">
+                <p> todd s</p>
+            </div>
+            <div>
+                <img src="../../images/phil-s.jpg" alt="phil photo">
+                <p>phil s</p>
+            </div>
+            <div class="footer-connection">
+                <a herf="#####">View More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Education">
+        <div class="nav-edu">
+         <h3>Education</h3>
+        </div>
+        <div class="info-edu">
+           <h4>Coding Dojo - full Stack Bootcamp</h4>
+           <p>July 2024 - september 2024</p>
+           <h4>Be Programmer - Java Course</h4>
+           <p>octobar 2022 - february 2023</p>
+        </div>
+    </div>
+    <script src="Making_Connections.js"></script>
+</body>
+</html>

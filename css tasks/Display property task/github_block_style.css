@@ -1,0 +1,39 @@
+.cotnainer {
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+}
+.top-nav {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+.sub_content_1{
+    display: flex;
+    background-color: #58C4F5;
+    height: 200px;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.sub_content_2{
+    display: flex;
+    height: 200px;
+    margin: 20px;
+    background-color: #D0ACC1;
+    justify-content: space-evenly;
+    padding: 10px; 
+}
+.sub_content_3{
+    display: flex;
+    height: 200px;
+    background-color: #FCFCFE;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;  
+}
+.footer {
+    font-family: sans-serif;
+    text-align: center;
+}

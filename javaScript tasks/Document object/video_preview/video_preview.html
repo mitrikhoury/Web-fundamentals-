@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Preview</title>
+    <link rel="stylesheet" href="Video_Preview.css">
+</head>
+<body> 
+        <div class="top-nav">
+            <h2>VideoLab</h2>
+            <input type="search" placeholder="search">
+            <button class="btn">login</button>
+        </div>
+    
+        <div class="container">
+            <video  width="800" height="400" controls  onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                <source src="../../images/sun video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="info-video">
+            <div>
+                <h1>San Francisco Aerial Sunset</h1>
+                <h3>600K views | June 18,2022</h3>
+            </div>
+            <div class="btn-subscribe">
+                <button class="btn">Subscribe</button>
+            </div>
+        </div>
+        <div class="user">
+                <img width="70" height="70" class="image"src="../../images/profileeeeeeetttt.png" alt="profile">
+                <h3>Mitri Khoury</h3>
+        </div>
+    
+
+       <div class="right-side">
+        <div class="title-right-side">
+            <h3>Up Next</h3>
+        </div>
+        <div class="video-side">
+            <div>
+                <img  src="../../images/video-placeholder.png" alt="video-placeholder" width="150px">
+                <h3><span>Not a Rick Roll</span></h3>
+            </div>
+            <div>
+                <img  src="../../images/video-placeholder.png" alt="video-placeholder" width="150px">
+                <h3><span>10 Facts About <br> ET's Cat</span></h3>
+            </div>
+            <div>
+                <img  src="../../images/video-placeholder.png" alt="video-placeholder" width="150px">
+                <h3><span>5 Cosplay Tips</span></h3>
+            </div>
+            <div>
+                <img  src="../../images/video-placeholder.png" alt="video-placeholder" width="150px">
+                <h3><span>Boy Bottles <br> Dinobat in <br> Thunderdome</span></h3>
+            </div>
+        </div>
+       </div>
+    <script src="Video_Preview.js"></script>
+</body>
+</html>

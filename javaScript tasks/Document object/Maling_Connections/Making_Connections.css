@@ -1,0 +1,217 @@
+.container {
+    background-color: whitesmoke; 
+     width: 400px;
+     height: 400px;
+     position: relative ;
+     top :-180px;
+     left: 500px;
+     border-radius: 25px;
+}
+.nav1 {
+    background-color: #649EA0;
+    height: 100px;
+} 
+.image {
+ width: 100px;
+ height: 100x;
+ padding: 10px;
+ margin: 10px;
+ position: relative;
+ top: 26px;
+}
+.info {
+    margin: 15px;
+    padding-left: 5px;
+   position: relative; 
+   top : 40px;
+}
+
+.location {
+    display : flex;
+    justify-content: flex-start;
+}
+.location img {
+    width : 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+.location h4 {
+    position: absolute;
+    top:25px;
+    padding-left: 40px;
+
+}
+.edit_profile img {
+    width: 30px;
+    height: 30px;
+}
+.edit_profile a {
+    position: relative;
+    top : -8px;
+    padding-left: 7px;
+    color :blue;
+    text-decoration: underline;
+}
+.nav {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+    color: white;
+    font-family: serif;
+    margin: 15px;
+}
+.nav-links {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   margin: 15px;
+   color: #333333;
+}
+
+.nav-links li a {
+    color: #A9A9A9;
+    text-decoration: none;
+}
+
+.nav-links li .active {
+    color: #F5F5F5;
+}
+
+.btn {
+    height: 30px;
+    width: 80px;
+    color: #fff;
+    background-color:#17A2B8;
+    border: none;
+    box-shadow: 3px 3px #000000;
+    border: 3px solid  black;
+}
+.Education{
+    background-color: whitesmoke;
+    position: relative;
+    top: -770px;
+    left : 500px;
+    width: 400px;
+    height: 250px; 
+    border: 1px solid #6d6d6d31;
+    border-radius: 25px;
+}
+.nav-edu{
+    position: relative;
+    top : -20px;
+    background-color: #333333;
+    height: 40px;
+}
+.nav-edu h3{
+    padding: 10px;
+    color :#F5F5F5;
+}
+.info-edu{
+   padding-top: 5px;
+   padding-left: 15px;
+}
+
+.info-edu p {
+    color : #515050;
+}
+.nav-request{
+    background-color: #333333;
+    height: 40px;
+    display: flex;
+}
+.nav-request h3{
+    position: relative;
+    color :#F5F5F5;
+    top:-10px;
+}
+.conn{
+    color: #212121;
+    background-color: #ffffffa0;
+    border-radius: 12px;
+    height: 24px;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 20px;
+    position: relative;
+    top:10px;
+    left :5px;
+}
+.info-request {
+   display: flex; 
+}
+.info-request img {
+    width:40px;
+    height: 40px;
+}
+.edit____name {
+    position: relative;
+    top : 40px; 
+    padding-left: 20px;
+}
+.edit____ {
+    position: relative;
+    top : 40px;
+    padding-left: 40px;
+}
+.Connections-Requests {
+    background-color: whitesmoke; 
+    width: 400px;
+    height: 200px;
+    position: relative ;
+    top :20px;
+    left: 990px;
+    border-radius: 25px;
+}
+.nav-conntion {
+    background-color: #333333;
+    height: 40px;
+}
+.nav-conntion h3{
+    padding: 10px;
+    color :#F5F5F5;
+}
+
+.your-connection {
+    background-color: whitesmoke; 
+    width: 400px;
+    height: 643px;
+    position: relative;
+    top : -350px;
+    left: 990px;
+    border-radius: 25px;
+}
+.your-connection h3 {
+   position: relative;
+   top : -40px;
+   left:49px;
+}
+.info-connection div {
+    margin-bottom: 15px;
+    display: flex;  
+}
+.info-connection div img {
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+.info-connection div p {
+    position: relative;
+    top : 70px;
+    left : 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-connection {
+    border: 1px solid #CCCCCC;
+    border-radius: 25px;
+    display :flex;
+    height: 30px;
+    justify-content: center;
+}
+.footer-connection a {
+    color: #17A2B8;
+    text-align: center;
+    text-decoration: underline;
+}

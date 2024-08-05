@@ -1,0 +1,19 @@
+h1 {
+    background-color: black;
+    color: white;
+}
+h3 {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+strong {
+    color: aqua;
+    }
+p {
+    background-color: rgb(90, 180, 244);
+    text-align: right;
+    text-decoration: underline;
+    font-family: sans-serif;
+}

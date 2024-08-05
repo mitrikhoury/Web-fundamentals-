@@ -1,0 +1,110 @@
+body {
+    overflow-y: scroll;
+}
+
+.nav {
+    background-color: #9FC5F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+    color: white;
+    font-family: serif;
+    margin: 15px;
+}
+.nav-links {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   margin: 15px;
+   color: #9FC5F8;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+.title {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin: 20px;
+}
+.temp-div {
+    display: flex;
+    gap: 20px;
+
+}
+
+.today-box ,.friday-box ,.tommorrow-box , .Saturday-box{
+    background-color: #eeeeee;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+.temperature-value {
+    display :flex;
+    gap:35px;
+}
+.high {
+    color: red;
+}
+.min {
+    color :blue;
+}
+.images {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    gap:23px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.footer {
+    width: 100%;
+    bottom: 10px;
+    position: relative;    /* i dont use postion fixed beacuse he is stupid */
+    bottom: 0px;
+}
+
+.cookie-policy {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 160px;
+    padding: 20px;
+    border: 2px solid #000;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    background-color: #9fc5f8;
+    cursor: pointer;
+}
+
+.text {
+    width: 70%;
+}
+
+.text h2 {
+    font-size: 1.8rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+}

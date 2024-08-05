@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Wheather</title>
+    <link rel="stylesheet" href="DojoWheather.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">DojoWeather</h1>
+        <ul class="nav-links">
+            <li><a href="#" onclick="alert('Loading weather report ...')">Burbank</a></li>
+            <li><a href="#" onclick="alert('Loading weather report ...')">Chicago</a></li>
+            <li><a href="#" onclick="alert('Loading weather report ...')">Dallas</a></li>
+        </ul>
+    </div>
+
+    <div class="title">
+        <h2>San Jose</h2>
+        <div class="temp-div">
+            <p> <span>show temperature in</span></p>
+            <select onchange="convert(this)">
+                <option>°C</option>
+                <option>°f</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="today-box">
+            <h3>Today</h3>
+            <img class="images" src="../../images/some_rain.png">
+            <p>some rain</p>
+            <div class="temperature-value">
+              <h3 class="high" id="t1">24°</h3>
+              <h3 class="min" id="t2">18°</h3>
+            </div>
+        </div>
+
+        <div class="tommorrow-box">
+            <h3>Tommorrow</h3>
+            <img class="images" src="../../images/some_sun.png">
+            <p>some sun</p>
+            <div class="temperature-value">
+              <h3 class="high" id="t3">27°</h3>
+              <h3 class="min" id="t4">19°</h3>
+            </div>
+        </div>
+
+        <div class="friday-box">
+            <h3>friday</h3>
+            <img class="images" src="../../images/some_clouds.png">
+            <p>some clouds</p>
+            <div class="temperature-value">
+              <h3 class="high" id="t5">21°</h3>
+              <h3 class="min" id="t6">16°</h3>
+            </div>
+        </div>
+
+        <div class="Saturday-box">
+            <h3>Saturday</h3>
+            <img class="images" src="../../images/some_sun.png">
+            <p>some sun</p>
+            <div class="temperature-value">
+              <h3 class="high" id="t7">26°</h3>
+              <h3 class="min" id="t8">21°</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="cookie-box">
+        <div class="cookie-policy">
+            <img src="../../images/cookie.png" alt="cookie">
+            <div class="text">
+                <h2>Stop! Cookie time.</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize<br> content and ads, to provide social media features and to <br>analyze our site traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button class="btn" onclick="Accept_cookie('#cookie-box')">Accept</button>
+        </div>
+    </div>
+
+
+    <script src="DojoWheather.js"></script>
+</body>
+</html>
